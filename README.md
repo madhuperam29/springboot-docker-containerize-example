@@ -3,7 +3,7 @@
 [![Sonarqube Badge](https://img.shields.io/badge/Sonarqube-gray?logo=Sonarqube)](http://34.125.83.167:9000/dashboard?id=com.app.example%3Ajava-app)
 [![Swagger Badge](https://img.shields.io/badge/Swagger-API%20Spec-6DB33F?logo=Swagger)]
 ![Spring boot MVC Badge](https://img.shields.io/badge/Spring%20Boot-MVC-6DB33F?logo=spring)
-[Jenkins Build Status](http://34.125.83.167:8080/buildStatus/icon?job=java-maven-docker "http://34.125.83.167:8080/job/java-maven-docker/")
+[Jenkins Build Status](http://34.125.83.167:8080/buildStatus/icon?job=java-maven-docker&build=23 "http://34.125.83.167:8080/job/java-maven-docker/23/")
 
 
 
@@ -12,19 +12,19 @@
 
 ```console
 # UNIX
-you@your-pc:spring-boot-jdk17-test/$ ./mvnw clean package
+you@your-pc:springboot-docker-containerize-example/$ ./mvnw clean package
 ```
 ```dos
 # Windows
-C:\Users\Me\spring-boot-jdk17-test> .\mvnw.cmd clean package
+C:\Users\Me\springboot-docker-containerize-example> .\mvnw.cmd clean package
 ```
 
 ## Running
 
 ```console
 # UNIX
-you@your-pc:spring-boot-jdk17-test/$ ./mvnw spring-boot:run
+you@your-pc:springboot-docker-containerize-example/$ ./mvnw spring-boot:run
 ```
 ```dos
 # Windows
-C:\Users\Me\spring-boot-jdk17-test> .\mvnw.cmd spring-boot:run 
+C:\Users\Me\springboot-docker-containerize-example> .\mvnw.cmd spring-boot:run 

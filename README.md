@@ -3,7 +3,7 @@
 [![Sonarqube Badge](https://img.shields.io/badge/Sonarqube-gray?logo=Sonarqube)](http://34.125.83.167:9000/dashboard?id=com.app.example%3Ajava-app)
 [![Swagger Badge](https://img.shields.io/badge/Swagger-API%20Spec-6DB33F?logo=Swagger)]
 ![Spring boot MVC Badge](https://img.shields.io/badge/Spring%20Boot-MVC-6DB33F?logo=spring)
-[Build Status](http://34.125.83.167:8080/job/java-maven-docker/badge/icon) "http://34.125.83.167:8080/job/java-maven-docker/")
+[Jenkins Build Status](http://34.125.83.167:8080/buildStatus/icon?job=java-maven-docker "http://34.125.83.167:8080/job/java-maven-docker/")
 
 
 

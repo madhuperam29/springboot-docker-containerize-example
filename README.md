@@ -22,7 +22,7 @@ HTTP DELETE api/v1/users/{userId} <br />
 http://34.125.83.167:8081/swagger-ui.html <br />
 
 
-## How to run in local
+## How to build and run in local
 
 ## Building
 

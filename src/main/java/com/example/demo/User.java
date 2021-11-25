@@ -5,18 +5,24 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import io.swagger.annotations.ApiModelProperty;
+
 @Entity
 public class User {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@ApiModelProperty(notes = "The database generated user ID")
 	private int id;
 	
 	public User() {
 		super();
 	}
+	@ApiModelProperty(notes = "The name of the user")
 	private String userName;
+	@ApiModelProperty(notes = "The email ID  of the user")
 	private String emailId;
+	@ApiModelProperty(notes = "The balance of the user")
 	private double totalBalance;
 	public int getId() {
 		return id;
